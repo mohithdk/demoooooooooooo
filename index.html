@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style1.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</head>
+<body>
+  <header>
+    <div class="nav">
+      
+
+      
+       <img  class="logo" src="logo.png"> 
+       <img class="admin" src="carticon.png">
+
+    <div class="adminPage">
+      <ion-icon name="close" class="adminClose"></ion-icon>
+      <div id="mohith" class="tabcontent">
+        <h1>your ecsept</h1>
+        <button class="tablink" onclick="openPage('yes')">yes</button>
+        <button class="tablink" onclick="openPage('no')">no</button>
+    
+      </div>
+      <div id="yes" class="tabcontent">
+                <div class="cart-contentAdmin">
+ 
+        </div>
+      </div>
+     
+    </div>
+      <div class="box">
+        <div class="cart-count">0</div>
+        <img  id="cart-icon" src="carticon.png">
+      </div>
+
+      <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+ 
+        </div>
+        
+      <div class="total">
+        <div class="total-title">Total :</div>
+        <div class="total-price">Rs.0 </div>
+      </div>
+      <button class="tablink" onclick="openPage('mohith')" >Veg</button>
+      <div id="yes" class="tabcontent">
+          <h3>successful
+          </h3>
+      </div>
+      <div id="no" class="tabcontent">
+          <h3>pls try agn</h3>
+      </div>
+
+        <div class="total">
+          <div class="total-title">Total :</div>
+          <div class="total-price">Rs.0 </div>
+        </div>
+
+      
+      <ion-icon name="close" id="cart-close"></ion-icon>
+
+      </div>
+    </div>
+  </header><BR>
+  <button class="tablink" onclick="openPage('Home')" id="defaultOpen">Veg</button>
+  <button class="tablink" onclick="openPage('News')">Non-Veg</button>
+  <button class="tablink" onclick="openPage('DESSERT')" >Non-Veg</button>
+  
+  <div id="Home" class="tabcontent">
+  <h1>STARTER</h1>
+    <div class="scroll-container">
+        
+    <div class="shop-content">
+       
+      <div class="food-box">
+        <div class="pic">
+          <img src="1.png" class="food-img">
+        </div>
+        <h2 class="food-title">Plain</h2>
+        <span class="food-price">Rs.40</span><br>
+        <button  class="add-cart">ADD TO CART</button>
+      </div>
+
+
+      <div class="food-box">
+        <div class="pic"><img src="2.png" class="food-img"></div>
+        <h2 class="food-title">Paper Roast</h2>
+        <span class="food-price">Rs.65</span><br>
+        <button  class="add-cart">ADD TO CART</button>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic"><img src="6.png" class="food-img"></div>
+        <h2 class="food-title">Onion Roast</h2>
+        <span class="food-price">Rs.80</span><br>
+        <button  class="add-cart">ADD TO CART</button>
+      </div>
+  
+
+    
+        
+      
+    </div>
+        </div>
+  </div>
+  <div id="News" class="tabcontent">
+    <h2>NON</h2>
+    <div class="scroll-container">
+            
+        <div class="shop-content">
+           
+          <div class="food-box">
+            <div class="pic">
+              <img src="6.png" class="food-img">
+            </div>
+            <h2 class="food-title">Plain</h2>
+            <span class="food-price">Rs.40</span><br>
+            <button  class="add-cart">ADD TO CART</button>
+          </div>
+    
+    
+          <div class="food-box">
+            <div class="pic"><img src="5.png" class="food-img"></div>
+            <h2 class="food-title">Paper Roast</h2>
+            <span class="food-price">Rs.65</span><br>
+            <button  class="add-cart">ADD TO CART</button>
+          </div>
+      
+          <div class="food-box">
+            <div class="pic"><img src="4.png" class="food-img"></div>
+            <h2 class="food-title">Onion Roast</h2>
+            <span class="food-price">Rs.80</span><br>
+            <button  class="add-cart">ADD TO CART</button>
+          </div>
+      
+       
+        
+        </div> 
+    </div>
+        </div>
+        <div id="DESSERT" class="tabcontent">
+    <h1>sdfbffjn</h1>
+    <div class="scroll-container">
+            
+        <div class="shop-content">
+           
+          <div class="food-box">
+            <div class="pic">
+              <img src="2.png" class="food-img">
+            </div>
+            <h2 class="food-title">Plain</h2>
+            <span class="food-price">Rs.40</span><br>
+            <button  class="add-cart">ADD TO CART</button>
+          </div>
+    
+    
+          <div class="food-box">
+            <div class="pic"><img src="1.png" class="food-img"></div>
+            <h2 class="food-title">Paper Roast</h2>
+            <span class="food-price">Rs.65</span><br>
+            <button  class="add-cart">ADD TO CART</button>
+          </div>
+      
+          <div class="food-box">
+            <div class="pic"><img src="5.png" class="food-img"></div>
+            <h2 class="food-title">Onion Roast</h2>
+            <span class="food-price">Rs.80</span><br>
+            <button  class="add-cart">ADD TO CART</button>
+          </div>
+      
+  
+        
+      
+    </div>
+        </div>
+        </div>
+      </div>
+  <script src="script1.js"></script>
+</body>
+</html>
